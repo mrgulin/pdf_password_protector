@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Debugging folder
+/debug/
+
+# Excel temporary files
+~*.xlsx
+
+/.idea/
