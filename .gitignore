@@ -136,3 +136,4 @@ dmypy.json
 ~*.xlsx
 
 /.idea/
+/test/sample_output/

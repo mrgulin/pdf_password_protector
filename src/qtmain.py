@@ -18,8 +18,6 @@ class UiMainWindow(Ui_MainWindow):
         if os.path.isfile(PASSWORD_CONFIG_DEFAULT_PATH):
             self.config_file.setText(os.path.abspath(PASSWORD_CONFIG_DEFAULT_PATH))
 
-        self.input_folder.setText("C:/Users/tinc9/Documents/pdf_protect_tool/debug/input1")
-        self.output_folder.setText("C:/Users/tinc9/Documents/pdf_protect_tool/debug/output1")
 
     def connect_signals(self):
         self.select_input_folder.pressed.connect(
